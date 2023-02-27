@@ -26,21 +26,12 @@ function WorkHistory(props) {
       />
 
       <input
-        type="date"
-        name="datefrom"
-        value={workInfo.dateFrom}
+        type="text"
+        name="dateEmployed"
+        value={workInfo.date}
         onChange={handleChange}
-        placeholder="From"
-        id="date-from-input"
-      />
-
-      <input
-        type="date"
-        name="dateTo"
-        value={workInfo.dateTo}
-        onChange={handleChange}
-        placeholder="To"
-        id="date-to-input"
+        placeholder="Employed mm/yyyy - mm/yyyy"
+        id="date-input"
       />
 
       <input
@@ -52,32 +43,14 @@ function WorkHistory(props) {
         id="position-input"
       />
 
-      <div className="main-tasks-container">
-        <input
-          type="text"
-          name="mainTasks"
-          value={workInfo.mainTasks}
-          onChange={handleChange}
-          placeholder="Main Tasks"
-          id="main-tasks-input"
-        />
-        <input
-          type="text"
-          name="mainTasks"
-          value={workInfo.mainTasks}
-          onChange={handleChange}
-          placeholder="Main Tasks"
-          id="main-tasks-input"
-        />
-        <input
-          type="text"
-          name="mainTasks"
-          value={workInfo.mainTasks}
-          onChange={handleChange}
-          placeholder="Main Tasks"
-          id="main-tasks-input"
-        />
-      </div>
+      <input
+        type="text"
+        name="mainTasks"
+        value={workInfo.mainTasks}
+        onChange={handleChange}
+        placeholder="Description"
+        id="main-tasks-input"
+      />
     </>
   );
 }

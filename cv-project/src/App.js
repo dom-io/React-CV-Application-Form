@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import Education from './components/Education';
 import GeneralInfo from './components/GenInfo';
+import SavePage from './components/SaveBtn';
 import WorkHistory from './components/WorkHistory';
-
-const saveBtn = document.querySelector('.save-btn');
-saveBtn.addEventListener('click', () => '');
+import './styles.css';
 
 function App() {
   return (
@@ -21,8 +20,9 @@ function App() {
       <div className="work-info">
         <WorkHistory />
       </div>
-      <button className="save-btn">Save</button>
-      <div className="cv-container"></div>
+      <div className="cv-container">
+        <SavePage />
+      </div>
     </div>
   );
 }

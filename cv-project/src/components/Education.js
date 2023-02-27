@@ -3,7 +3,8 @@ import React, { useState } from 'react';
 function Education(props) {
   const [eduInfo, setInfo] = useState({
     school: '',
-    dateAttended: '',
+    dateAttendedFrom: '',
+    dateAttendedTo: '',
     degree: '',
     location: '',
   });
@@ -25,11 +26,11 @@ function Education(props) {
       />
 
       <input
-        type="date"
+        type="text"
         name="dateAttended"
         value={eduInfo.dateAttended}
         onChange={handleChange}
-        placeholder="Date Attended"
+        placeholder="Date Attended mm/yyyy - mm/yyyy"
         id="edu-date-input"
       />
 

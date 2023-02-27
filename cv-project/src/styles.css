@@ -1,0 +1,45 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gen-header {
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  font-size: 30px;
+}
+
+.gen-info {
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  gap: 0.5rem;
+}
+
+.edu-header {
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  font-size: 30px;
+}
+
+.edu-info {
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  gap: 0.5rem;
+}
+
+.work-header {
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  font-size: 30px;
+}
+
+.work-info {
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  gap: 0.5rem;
+}
